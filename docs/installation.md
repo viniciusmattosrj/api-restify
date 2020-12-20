@@ -1,8 +1,8 @@
 # Instalação
 
-Faça um git clone do projeto api-graphql:
+Faça um git clone do projeto api-restify:
 ```
-git@github.com:viniciusmattosrj/api-graphql.git
+git@github.com:viniciusmattosrj/api-restify.git
 ```
 
 ## Encoding
@@ -18,10 +18,10 @@ git config core.fileMode false
 
 #### Usando o nvm
 
-No projeto **api-graphql** execute o comando abaixo:
+No projeto **api-restify** execute o comando abaixo:
 ```
 yarn install
-yarn dev
+yarn start
 ```
 
 #### Utilizando o docker ao invés do NVM
@@ -32,7 +32,7 @@ cp -v docker-compose.yml.example docker-compose.yml
 cp -v .env.example .env
 ```
 
-Dentro do projeto **api-graphql** execute:
+Dentro do projeto **api-restify** execute:
 ```
 docker-compose up -d
 ```

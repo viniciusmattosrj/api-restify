@@ -19,7 +19,7 @@ Esse projeto é uma api rest usando o micro framework restify, visando a prátic
 
 Veja `.env.example` as [instruções](docs/installation.md) sobre as variáveis de ambiente.
 
-É possível importar as `.collections` através do [collections](docs/collections.json) que contém querys/mutations/subscriptions.
+É possível importar as `.collections` através do arquivo [collections](docs/collections.json).
 
 
 ### Instalação
